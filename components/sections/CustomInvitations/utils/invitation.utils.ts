@@ -75,7 +75,7 @@ export const generateWhatsAppMessage = (formData: FormData, guestId?: string | n
 
 ${formData.personalMessage}
 
-Tienes una invitación especial a ${EVENT_INFO.partyTitle} de:
+Tienes una invitación especial de:
 ✨ ${EVENT_INFO.quinceaneraName} ✨
 
 📅 Fecha: ${EVENT_INFO.date}
