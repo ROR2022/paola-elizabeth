@@ -114,7 +114,7 @@ export default function GiftsSection() {
               >
                 {gifts.type}
               </h3>
-              <p className="text-purple-600">{gifts.message}</p>
+              <p className="text-purple-600 text-xl">{gifts.message}</p>
             </div>
           </div>
           {/* Cards de opciones con animaciones escalonadas */}

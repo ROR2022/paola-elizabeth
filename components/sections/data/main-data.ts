@@ -66,7 +66,7 @@ Aurora Chávez Capultitla
     },
     party: {
       time: "15:00 hrs.",
-      venue: "Salón Michmani",
+      venue: "Jardín de eventos Seven conejos",
       address: "Antiguo Canal Cuemanco 3, Pista Olímpica Virgilio Uribe, Xochimilco, el acceso al evento será por el estacionamiento del salón Michmani",
       type: "Recepción",
       ubiLink: "https://maps.app.goo.gl/2Tm4GjEDhi3CVc5W7",
