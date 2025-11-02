@@ -98,6 +98,7 @@ export default function TimelineSection() {
     >
       {/* <BackgroundCarrousel images={timeline.images}/> */}
 
+      {/* Partículas flotantes de confeti
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
           {[...Array(10)].map((_, i) => (
             <div
@@ -114,6 +115,7 @@ export default function TimelineSection() {
             </div>
           ))}
         </div>
+      */}
       
       {/* Partículas sparkle mágicas */}
       {sparklePositions.map((sparkle) => (

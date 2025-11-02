@@ -86,6 +86,10 @@ export default function CeremonySection() {
       className="py-20 relative overflow-hidden"
     >
 
+
+      {/* <BackgroundCarrousel images={ceremony.backgroundCarrouselImages || []} /> */}
+
+      {/* Partículas flotantes de lazos 
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
           {[...Array(10)].map((_, i) => (
             <div
@@ -102,6 +106,7 @@ export default function CeremonySection() {
             </div>
           ))}
         </div>
+        */}    
 
       {/* Cortina teatral de entrada */}
       <div className={getElegantAnimationClass(curtainVisible, 'curtain-reveal', 'delay-200')}>

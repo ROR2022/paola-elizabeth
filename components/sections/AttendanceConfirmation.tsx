@@ -561,6 +561,7 @@ ${formData.mensaje ? `💌 *Mensaje especial:*\n${formData.mensaje}` : ""}
 
       {/* <BackgroundCarrousel images={attendance.images} /> */}
 
+        {/* Partículas flotantes de confeti 
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
           {[...Array(10)].map((_, i) => (
             <div
@@ -577,6 +578,7 @@ ${formData.mensaje ? `💌 *Mensaje especial:*\n${formData.mensaje}` : ""}
             </div>
           ))}
         </div>
+        */}
 
       <div className="max-w-2xl mx-auto relative rounded-3xl">
         <div

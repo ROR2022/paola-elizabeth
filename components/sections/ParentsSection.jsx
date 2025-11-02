@@ -83,6 +83,7 @@ export default function ParentsSection() {
       className={`pb-0 relative overflow-hidden`}
     >
 
+      {/* Partículas flotantes de lazos 
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
           {[...Array(10)].map((_, i) => (
             <div
@@ -99,6 +100,8 @@ export default function ParentsSection() {
             </div>
           ))}
         </div>
+      */}
+
       <div className="container mx-auto px-4 py-10">
         <div className="max-w-4xl mx-auto">
           <div className="relative">

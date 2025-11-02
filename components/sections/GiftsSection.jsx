@@ -56,6 +56,8 @@ export default function GiftsSection() {
       className="py-20"
     >
 
+
+      {/* Partículas flotantes de confeti
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
           {[...Array(10)].map((_, i) => (
             <div
@@ -72,6 +74,7 @@ export default function GiftsSection() {
             </div>
           ))}
         </div>
+      */}
       
 
       <div className="container text-white mx-auto px-4 p-6 rounded-2xl">

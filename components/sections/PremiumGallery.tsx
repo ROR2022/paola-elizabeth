@@ -115,6 +115,8 @@ export function PremiumGallery() {
         ref={ref}
         className="p-4 rounded-2xl max-w-4xl mx-auto text-center"
       >
+
+        {/* Partículas flotantes de confeti 
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
           {[...Array(10)].map((_, i) => (
             <div
@@ -131,6 +133,7 @@ export function PremiumGallery() {
             </div>
           ))}
         </div>
+        */}
 
 
         {/* Header premium con animaciones escalonadas */}

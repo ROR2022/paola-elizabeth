@@ -1,7 +1,7 @@
 // 🏠 HeroSection - Sección principal/portada
 
 import React, { useEffect, useState } from "react";
-import Image from 'next/image'
+import Image from "next/image";
 import { Heart } from "lucide-react";
 import { quinceMainData } from "@/components/sections/data/main-data";
 import BackgroundCarrousel from "../../components/sections/BackgroundCarrousel";
@@ -72,24 +72,26 @@ export default function HeroSection() {
     >
       {/* <BackgroundCarrousel images={backgroundCarrouselImages}/> */}
 
+      {/* Partículas flotantes de corazones 
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-          {[...Array(10)].map((_, i) => (
-            <div
-              key={i}
-              className="absolute welcome-float-particle"
-              style={{
-                left: `${Math.random() * 100}%`,
-                animationDelay: `${i * 1000}ms`,
-                fontSize: `${12 + Math.random() * 8}px`,
-                color: 'rgba(255, 255, 255, 0.6)'
-              }}
-            >
-              💝
-            </div>
-          ))}
-        </div>
+        {[...Array(10)].map((_, i) => (
+          <div
+            key={i}
+            className="absolute welcome-float-particle"
+            style={{
+              left: `${Math.random() * 100}%`,
+              animationDelay: `${i * 1000}ms`,
+              fontSize: `${12 + Math.random() * 8}px`,
+              color: "rgba(255, 255, 255, 0.6)",
+            }}
+          >
+            💝
+          </div>
+        ))}
+      </div>
+      */}
 
-       {/* Partículas sparkle mágicas */}
+      {/* Partículas sparkle mágicas 
       {sparklePositions.map((sparkle) => (
         <div
           key={sparkle.id}
@@ -103,6 +105,7 @@ export default function HeroSection() {
           }}
         />
       ))}
+        */}
 
       {/* Contenido principal - Usar solo animación CSS, no scroll-based */}
       <div

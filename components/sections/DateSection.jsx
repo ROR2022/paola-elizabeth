@@ -90,6 +90,8 @@ export default function DateSection() {
       className={`relative overflow-hidden`}
     >
       {/* <BackgroundCarrousel images={date.backgroundCarrouselImages || []} /> */}
+
+      {/* Partículas flotantes de lazos
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
           {[...Array(10)].map((_, i) => (
             <div
@@ -106,7 +108,7 @@ export default function DateSection() {
             </div>
           ))}
         </div>
-      
+        */}
 
       <div className="container text-white mx-auto px-4 p-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8">

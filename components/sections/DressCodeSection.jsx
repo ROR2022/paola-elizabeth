@@ -57,6 +57,7 @@ export default function DressCodeSection() {
       }}
     >
 
+      {/* Partículas flotantes de vestidos
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
           {[...Array(10)].map((_, i) => (
             <div
@@ -73,6 +74,7 @@ export default function DressCodeSection() {
             </div>
           ))}
         </div>
+      */}
      
       <div
         style={{
