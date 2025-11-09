@@ -57,7 +57,7 @@ Aurora Chávez Capultitla
     },
     //Misa a la 1pm parroquia Santa fe de Guadalupe, la Sauceda Guanajuato.
     ceremony: {
-      time: "10:00 hrs.",
+      time: "11:00 hrs.",
       venue: "Comunidad Am Israel",
       address: "Ayecatl s/n barrio la Asunción, Xochimilco, CDMX C.P 16040",
       type: "Ceremonia de Acción de Gracias",
