@@ -104,7 +104,7 @@ Aurora Chávez Capultitla
     events: [
       {
         id: "event1",
-        time: "10:00 hrs.",
+        time: "11:00 hrs.",
         title: "Ceremonia Bat Mitzvah",
         description: "Ceremonia de Acción de Gracias en Comunidad Am Israel.",
         icon: "ceremonia",
